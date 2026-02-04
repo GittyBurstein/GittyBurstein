@@ -9,13 +9,13 @@ I build practical, production-ready software with a focus on clean architecture,
 
 ### 🧠 Mermaid MCP Server (Python, MCP, GitHub API, Kroki, Mermaid)
 Turns local folders or GitHub repositories into Mermaid diagrams and renders them as PNG/SVG for fast codebase understanding.  
-- Layered architecture (Tools/Core/Clients/Sources), Source Factory, validation, unified error handling. :contentReference[oaicite:2]{index=2}  
+- Layered architecture (Tools/Core/Clients/Sources), Source Factory, validation, unified error handling.  
 **Repo:** [<https://github.com/<username>/<repo>>  ](https://github.com/GittyBurstein/mermaid-mcp-server)
 
 ### ⚡ llama.cpp Performance Acceleration (SYCL, GPU, LLM Inference)
 Optimized LLM inference with GPU-oriented parallel programming.  
 - Implemented SYCL operators (SET, ARANGE) and achieved **4× speedup** after kernel redesign. :contentReference[oaicite:3]{index=3}  
-- Implemented **Sparse-K Attention** (O(n²) → O(n·k)) with dynamic sparse mask; **2.3× prompt-eval speedup** with CUDA compatibility. :contentReference[oaicite:4]{index=4}  
+- Implemented **Sparse-K Attention** (O(n²) → O(n·k)) with dynamic sparse mask; **2.3× prompt-eval speedup** with CUDA compatibility.  
 **PRs:**  
 - SET: [<https://github.com/ggerganov/llama.cpp/pull/<id>>](https://github.com/ggml-org/llama.cpp/pull/16350)  
 - ARANGE: [<https://github.com/ggerganov/llama.cpp/pull/<id>>](https://github.com/ggml-org/llama.cpp/pull/16362)  
@@ -24,7 +24,7 @@ Optimized LLM inference with GPU-oriented parallel programming.
 ### 🧾 Photo Printing Management System (.NET Core / C# / SQL Server)
 A smart photo-printing management system built with .NET Core MVC + Entity Framework + SQL Server.  
 - UI, order processing, image handling (clean architecture).  
-- PDF invoice emailing module (iText, GemBox, Gmail SMTP). :contentReference[oaicite:5]{index=5}  
+- PDF invoice emailing module (iText, GemBox, Gmail SMTP).  
 
 ### 🛒 Online Store (React, Redux, React Router)
 Responsive e-commerce app with cart + checkout flow and modern UI (MUI + Bootstrap).  
@@ -36,7 +36,7 @@ Responsive e-commerce app with cart + checkout flow and modern UI (MUI + Bootstr
 
 ## Open Source
 I’m a highly active open-source contributor: I collaborate with maintainers, iterate through PR reviews, and focus on measurable improvements (performance, reliability, clean design).  
-- Merged contribution to **punkpeye/awesome-mcp-servers** (Jan 6, 2026). :contentReference[oaicite:7]{index=7}  
+- Merged contribution to **punkpeye/awesome-mcp-servers** (Jan 6, 2026).  
 **PR link:** [<https://github.com/punkpeye/awesome-mcp-servers/pull/<id>>](https://github.com/punkpeye/awesome-mcp-servers/pull/1634)
 
 ---
@@ -47,10 +47,10 @@ I’m a highly active open-source contributor: I collaborate with maintainers, i
 **Backend:** ASP.NET Core · Node.js · Entity Framework  
 **Databases:** SQL Server · MongoDB  
 **AI/ML:** Hugging Face · GGML · SYCL  
-**Tools:** Git/GitHub · Swagger · Postman :contentReference[oaicite:8]{index=8}
+**Tools:** Git/GitHub · Swagger · Postman 
 
 ---
 
 ## Contact
-📧 G0534163997@gmail.com :contentReference[oaicite:9]{index=9}
+📧 G0534163997@gmail.com 
 📞 0534163997
