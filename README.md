@@ -1,29 +1,56 @@
 ## Hi, I'm Gitty 👋
-Software Developer | Systems & Developer Tools | Performance | Open Source
+**Software Developer | Systems & Developer Tools | Performance | Open Source**
 
-I build practical, production-ready systems with a strong focus on performance, clean architecture, and developer experience.
+I build practical, production-ready software with a focus on clean architecture, performance, and developer experience.
 
-### What I do
-- GenAI & AI agents tooling (MCP, GitHub integrations, diagram/visualization workflows)
-- LLM inference performance optimization (GPU-oriented, parallel programming mindset)
-- Clean, maintainable architecture with strong testing and reliability practices
+---
 
-### Featured work
-- **Mermaid MCP Server** — MCP server that turns local folders or GitHub repos into Mermaid diagrams and renders PNG/SVG via Kroki.  
-  Clean layered architecture (Tools/Core/Clients/Sources), Source Factory, validation & unified error handling.
-- **llama.cpp Performance Acceleration** — SYCL-based GPU operators (SET, ARANGE), kernel redesign with major speedups, and upstream contributions.  
-  Also implemented infrastructure-level Sparse-K Attention to reduce attention complexity.
+## Featured Projects
 
-### Highlights
-- 4× speedup (ARANGE operator) after kernel redesign & benchmarking
-- 2.3× speedup in prompt evaluation without accuracy loss
-- Open-source: merged PR into `punkpeye/awesome-mcp-servers`
+### 🧠 Mermaid MCP Server (Python, MCP, GitHub API, Kroki, Mermaid)
+Turns local folders or GitHub repositories into Mermaid diagrams and renders them as PNG/SVG for fast codebase understanding.  
+- Layered architecture (Tools/Core/Clients/Sources), Source Factory, validation, unified error handling. :contentReference[oaicite:2]{index=2}  
+**Repo:** [<https://github.com/<username>/<repo>>  ](https://github.com/GittyBurstein/mermaid-mcp-server)
 
-### Tech
-Python · C++ · C · C# · Java  
-React · TypeScript · .NET Core · Entity Framework  
-Linux (Ubuntu) · Git/GitHub · Swagger · Postman  
-Hugging Face · GGML · SYCL
+### ⚡ llama.cpp Performance Acceleration (SYCL, GPU, LLM Inference)
+Optimized LLM inference with GPU-oriented parallel programming.  
+- Implemented SYCL operators (SET, ARANGE) and achieved **4× speedup** after kernel redesign. :contentReference[oaicite:3]{index=3}  
+- Implemented **Sparse-K Attention** (O(n²) → O(n·k)) with dynamic sparse mask; **2.3× prompt-eval speedup** with CUDA compatibility. :contentReference[oaicite:4]{index=4}  
+**PRs:**  
+- SET: [<https://github.com/ggerganov/llama.cpp/pull/<id>>](https://github.com/ggml-org/llama.cpp/pull/16350)  
+- ARANGE: [<https://github.com/ggerganov/llama.cpp/pull/<id>>](https://github.com/ggml-org/llama.cpp/pull/16362)  
+- Sparse-K (open): [<https://github.com/ggerganov/llama.cpp/pull/<id>>](https://github.com/ggml-org/llama.cpp/pull/16817)
 
-### Contact
-📧 G0534163997@gmail.com
+### 🧾 Photo Printing Management System (.NET Core / C# / SQL Server)
+A smart photo-printing management system built with .NET Core MVC + Entity Framework + SQL Server.  
+- UI, order processing, image handling (clean architecture).  
+- PDF invoice emailing module (iText, GemBox, Gmail SMTP). :contentReference[oaicite:5]{index=5}  
+
+### 🛒 Online Store (React, Redux, React Router)
+Responsive e-commerce app with cart + checkout flow and modern UI (MUI + Bootstrap).  
+- Integrated external libraries (e.g., jsPDF) and deployed on Vercel. :contentReference[oaicite:6]{index=6}  
+**Repo:** [<https://github.com/<username>/<repo>>](https://github.com/GittyBurstein/CakesProject-react)  
+**Live:** [<https://<your-vercel-app>.vercel.app>](https://cakes-project-react-mdjx.vercel.app/)
+
+---
+
+## Open Source
+I’m a highly active open-source contributor: I collaborate with maintainers, iterate through PR reviews, and focus on measurable improvements (performance, reliability, clean design).  
+- Merged contribution to **punkpeye/awesome-mcp-servers** (Jan 6, 2026). :contentReference[oaicite:7]{index=7}  
+**PR link:** [<https://github.com/punkpeye/awesome-mcp-servers/pull/<id>>](https://github.com/punkpeye/awesome-mcp-servers/pull/1634)
+
+---
+
+## Tech Stack
+**Languages:** Python · C# · C/C++ · Java  
+**Frontend:** React · TypeScript · HTML · CSS  
+**Backend:** ASP.NET Core · Node.js · Entity Framework  
+**Databases:** SQL Server · MongoDB  
+**AI/ML:** Hugging Face · GGML · SYCL  
+**Tools:** Git/GitHub · Swagger · Postman :contentReference[oaicite:8]{index=8}
+
+---
+
+## Contact
+📧 G0534163997@gmail.com :contentReference[oaicite:9]{index=9}
+📞 0534163997
